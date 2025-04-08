@@ -25,7 +25,8 @@ SECRET_KEY = "django-insecure-)prca%nepx++#65i%=o9)u^lq*n$7wa)3$uyw2#=ohiq=+lq70
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+# Add Codespace URL and localhost to ALLOWED_HOSTS
+ALLOWED_HOSTS = ['glowing-waddle-g6gp4jv47v2vq4q-8000.app.github.dev', 'localhost', '127.0.0.1']
 
 
 # Application definition
